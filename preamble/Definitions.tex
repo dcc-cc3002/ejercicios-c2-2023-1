@@ -1,0 +1,19 @@
+%% "Simple, Lightweight, and Adaptive TeX" (c) by R8V.
+%% "Simple, Lightweight, and Adaptive TeX" is licensed under a
+%% Creative Commons Attribution 4.0 International License.
+%% You should have received a copy of the license along with this
+%% work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COMMANDS AND PARAMETER DECLARATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ExplSyntaxOn
+\import{definitions}{Metadata.dtx}
+\import{definitions}{Title_Page.dtx}
+\import{definitions}{Figures.dtx}
+\ExplSyntaxOff
+
+% region : Theorem Styles
+\newtheorem*{remark}{Remark}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+% endregion
